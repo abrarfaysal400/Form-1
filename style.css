@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form-section{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+.form-section .form-bg{
+    width: 50%;
+    height: 80vh;
+    padding: 50px;
+    background: #f0ecf9;
+    border-radius: 10px;
+}
+
+.form-bg .img_one{
+    width: 100%;
+     text-align: center;
+    
+    margin-bottom: 50px;
+    text-align: center;
+}
+.img_one img{
+    border-radius: 50%;
+}
+input{
+    width: 96%;
+    margin: 10px 0;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+    background: none;
+    
+}
+.name input{
+    width: 47%;
+   
+}
+.f-name{
+    margin-right: 15px;
+}
+.form-bg .btn{
+    margin: 15px 19px 0 0px;
+    margin-left: 84%;
+    padding: 6px;
+    text-align: center;
+    border: 1px solid black;
+    background-color:rgb(63, 58, 58);
+    transition: 0.3s;
+    
+}
+.form-bg .btn a{
+    font-size: 18px;
+    margin-right: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+.btn .next{
+    color:#fff;
+    text-align: center;
+    
+}
+.form-bg .btn:hover{
+    background-color: rgb(188, 62, 62);
+    transition: 0.3s;
+}
+form .icon{
+margin-left: -20px;
+    
+}
